@@ -1,5 +1,6 @@
 package jp.gihyo.jenkinsbook.action;
 
+import java.util.Calendar;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 
@@ -63,6 +64,7 @@ public class SampleAction {
     public final String execute(final HttpServletRequest request) {
         SampleDTO dto = new SampleDTO(firstName, lastName);
 
+	Calendar calendar = Calendar.getInstance();
         HttpSession session = request.getSession(true);
         session.setAttribute("dto", dto);
 
