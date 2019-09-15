@@ -33,3 +33,4 @@ WEBアプリケーションのサンプルプログラムです。
 * Apache Maven 3.5.0
 * Gradle 3.5
 * Oracle JDK 8 Update 131
+add test
