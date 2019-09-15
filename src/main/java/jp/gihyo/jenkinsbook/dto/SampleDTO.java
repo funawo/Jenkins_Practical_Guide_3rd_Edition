@@ -28,7 +28,7 @@ public class SampleDTO implements Serializable {
         // this.setFirstName(firstName);
         // this.setLastName(lastName);
         // this.setMessage("Hello");
-	this.firstName = firstName;
+        this.firstName = firstName;
         this.lastName = lastName;
     }
 
