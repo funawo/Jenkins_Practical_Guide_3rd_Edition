@@ -34,3 +34,5 @@ WEBアプリケーションのサンプルプログラムです。
 * Gradle 3.5
 * Oracle JDK 8 Update 131
 add test
+add test2
+
